@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mjolnir Worthiness Test</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Mjolnir Worthiness Test</h1>
+    <form id="quizForm">
+        <ol>
+            <li>
+                <p>Question 1: What do you value most in life?</p>
+                <label><input type="radio" name="q1" value="a"> Power and strength</label> <br>
+                <label><input type="radio" name="q1" value="b"> Justice and righteousness</label><br>
+                <label><input type="radio" name="q1" value="c"> Knowledge and wisdom</label><br>
+                <label><input type="radio" name="q1" value="d"> Wealth and material possessions</label><br>
+            </li>
+            <li>
+                <p>Question 2: What would you do if you witnessed someone in need of help?</p>
+                <label><input type="radio" name="q2" value="a"> Ignore them and continue with your own business</label><br>
+                <label><input type="radio" name="q2" value="b"> Offer assistance if it benefits you in some way</label><br>
+                <label><input type="radio" name="q2" value="c"> Help them selflessly, regardless of personal gain</label><br>
+                <label><input type="radio" name="q2" value="d"> Assess the situation before deciding whether to help or not</label><br>
+            </li>
+            <li>
+                <p>Question 3: How do you handle conflicts or disagreements?</p>
+                <label><input type="radio" name="q3" value="a"> By resorting to violence or aggression</label><br>
+                <label><input type="radio" name="q3" value="b"> By trying to manipulate the situation to your advantage</label><br>
+                <label><input type="radio" name="q3" value="c">  By seeking a peaceful resolution through dialogue and compromise</label><br>
+                <label><input type="radio" name="q3" value="d"> By ignoring the conflict and hoping it resolves itself</label><br>
+            </li>
+            <li>
+                <p>Question 4: What motivates you to take action?</p>
+                <label><input type="radio" name="q4" value="a"> Personal ambition and glory</label><br>
+                <label><input type="radio" name="q4" value="b">  Fear of punishment or consequences</label><br>
+                <label><input type="radio" name="q4" value="c"> Compassion and empathy for others</label><br>
+                <label><input type="radio" name="q4" value="d"> Duty and honor towards your responsibilities</label><br>
+            </li>
+            <li>
+                <p>Question 5: How do you perceive the concept of worthiness?</p>
+                <label><input type="radio" name="q5" value="a">  It is determined by one's strength and power</label><br>
+                <label><input type="radio" name="q5" value="b"> It is earned through noble actions and virtues</label><br>
+                <label><input type="radio" name="q5" value="c"> It is irrelevant; everyone is worthy in their own way</label><br>
+                <label><input type="radio" name="q5" value="d">  It is subjective and varies from person to person</label><br>
+            </li>
+        </ol>
+        <button type="submit">Submit</button>
+    </form>
+    <div id="result"></div>
+    <div id="leaderboard">
+        <h2>Leaderboard</h2>
+        <ol id="scores"></ol>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

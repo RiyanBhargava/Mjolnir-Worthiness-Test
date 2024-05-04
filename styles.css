@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('thor2.jpg');
+    background-size: cover; /* Optional: Adjust the background image size */
+    background-repeat: no-repeat; /* Optional: Prevent the background image from repeating */
+    color: #ffffff; /* White text color */
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    width: 50%;
+}
+
+ol {
+    list-style-type: none;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+}
+
+#result {
+    text-align: center;
+}
+
+#leaderboard {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#scores {
+    padding-left: 0;
+}
